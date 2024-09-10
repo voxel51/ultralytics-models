@@ -41,19 +41,27 @@ def load_model(model_name, model_path, **kwargs):
     model_type = MODEL_TYPES[model_name]
 
     if model_type == "detection":
-        config = fouu.FiftyOneYOLODetectionModelConfig(model_path=model_path)
+        config = fouu.FiftyOneYOLODetectionModelConfig(
+            dict(model_path=model_path)
+        )
         return fouu.FiftyOneYOLODetectionModel(config)
 
     if model_type == "segmentation":
-        config = fouu.FiftyOneYOLOSegmentationModelConfig(model_path=model_path)
+        config = fouu.FiftyOneYOLOSegmentationModelConfig(
+            dict(model_path=model_path)
+        )
         return fouu.FiftyOneYOLOSegmentationModel(config)
 
     if model_type == "rtdetr":
-        config = fouu.FiftyOneRTDETRModelConfig(model_path=model_path)
+        config = fouu.FiftyOneRTDETRModelConfig(
+            dict(model_path=model_path)
+        )
         return fouu.FiftyOneRTDETRModel(config)
 
     if model_type == "obb":
-        config = fouu.FiftyOneYOLOOBBModelConfig(model_path=model_path)
+        config = fouu.FiftyOneYOLOOBBModelConfig(
+            dict(model_path=model_path)
+        )
         return fouu.FiftyOneYOLOOBBModel(config)
 
 
