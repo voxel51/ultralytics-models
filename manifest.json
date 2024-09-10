@@ -1,0 +1,846 @@
+{
+    "name": "voxel51/ultralytics",
+    "url": "https://github.com/voxel51/ultralytics-models",
+    "models": [
+        {
+            "base_name": "voxel51/yolov8n-coco-torch",
+            "base_filename": "yolov8n-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8n model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 6534387,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8s-coco-torch",
+            "base_filename": "yolov8s-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8s model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 22573363,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8m-coco-torch",
+            "base_filename": "yolov8m-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8m model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 52117635,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8l-coco-torch",
+            "base_filename": "yolov8l-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8l model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 87769683,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8x-coco-torch",
+            "base_filename": "yolov8x-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8x model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 136867539,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8n-seg-coco-torch",
+            "base_filename": "yolov8n-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8n Segmentation model trained on COCO",
+            "tags": ["segmentation", "coco", "torch", "yolo"],
+            "size_bytes": 7054355,
+            "date_added": "2024-04-02 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8s-seg-coco-torch",
+            "base_filename": "yolov8s-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8s Segmentation model trained on COCO",
+            "tags": ["segmentation", "coco", "torch", "yolo"],
+            "size_bytes": 23897299,
+            "date_added": "2024-04-02 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8m-seg-coco-torch",
+            "base_filename": "yolov8m-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8m Segmentation model trained on COCO",
+            "tags": ["segmentation", "coco", "torch", "yolo"],
+            "size_bytes": 54899779,
+            "date_added": "2024-04-02 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8l-seg-coco-torch",
+            "base_filename": "yolov8l-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8l Segmentation model trained on COCO",
+            "tags": ["segmentation", "coco", "torch", "yolo"],
+            "size_bytes": 92391859,
+            "date_added": "2024-04-02 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8x-seg-coco-torch",
+            "base_filename": "yolov8x-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov8/",
+            "description": "Ultralytics YOLOv8x Segmentation model trained on COCO",
+            "tags": ["segmentation", "coco", "torch", "yolo"],
+            "size_bytes": 144076467,
+            "date_added": "2024-04-02 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov9c-coco-torch",
+            "base_filename": "yolov9c-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov9/",
+            "description": "YOLOv9-C model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 51802599,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov9e-coco-torch",
+            "base_filename": "yolov9e-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov9/",
+            "description": "YOLOv9-E model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 117530476,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov9c-seg-coco-torch",
+            "base_filename": "yolov9c-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov9/#__tabbed_1_2",
+            "description": "YOLOv9-C Segmentation model trained on COCO",
+            "tags": ["segmentation", "coco", "torch", "yolo"],
+            "size_bytes": 112406113,
+            "date_added": "2024-04-02 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.42"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov9e-seg-coco-torch",
+            "base_filename": "yolov9e-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov9/#__tabbed_1_2",
+            "description": "YOLOv9-E Segmentation model trained on COCO",
+            "tags": ["segmentation", "coco", "torch", "yolo"],
+            "size_bytes": 243481823,
+            "date_added": "2024-04-02 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.42"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov10n-coco-torch",
+            "base_filename": "yolov10n-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov10/",
+            "description": "YOLOv10-N model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 5860383,
+            "date_added": "2024-07-01 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.2.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov10s-coco-torch",
+            "base_filename": "yolov10s-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov10/",
+            "description": "YOLOv10-S model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 16623111,
+            "date_added": "2024-07-01 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.2.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov10m-coco-torch",
+            "base_filename": "yolov10m-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov10/",
+            "description": "YOLOv10-M model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 33643667,
+            "date_added": "2024-07-01 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.2.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov10l-coco-torch",
+            "base_filename": "yolov10l-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov10/",
+            "description": "YOLOv10-L model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 52425230,
+            "date_added": "2024-07-01 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.2.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov10x-coco-torch",
+            "base_filename": "yolov10x-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolov10/",
+            "description": "YOLOv10-X model trained on COCO",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 64395854,
+            "date_added": "2024-07-01 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.2.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/rtdetr-l-coco-torch",
+            "base_filename": "rtdetr-l-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/rtdetr/",
+            "description": "RT-DETR-l model trained on COCO",
+            "tags": ["detection", "coco", "torch", "transformer"],
+            "size_bytes": 66511432,
+            "date_added": "2024-07-01 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.2.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/rtdetr-x-coco-torch",
+            "base_filename": "rtdetr-x-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/rtdetr/",
+            "description": "RT-DETR-x model trained on COCO",
+            "tags": ["detection", "coco", "torch", "transformer"],
+            "size_bytes": 135755662,
+            "date_added": "2024-07-01 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.2.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8s-world-torch",
+            "base_filename": "yolov8s-world.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo-world/",
+            "description": "YOLOv8s-World model",
+            "tags": ["detection", "torch", "yolo", "zero-shot"],
+            "size_bytes": 27166882,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8m-world-torch",
+            "base_filename": "yolov8m-world.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo-world/",
+            "description": "YOLOv8m-World model",
+            "tags": ["detection", "torch", "yolo", "zero-shot"],
+            "size_bytes": 58607810,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8l-world-torch",
+            "base_filename": "yolov8l-world.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo-world/",
+            "description": "YOLOv8l-World model",
+            "tags": ["detection", "torch", "yolo", "zero-shot"],
+            "size_bytes": 95664610,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8x-world-torch",
+            "base_filename": "yolov8x-world.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo-world/",
+            "description": "YOLOv8x-World model",
+            "tags": ["detection", "torch", "yolo", "zero-shot"],
+            "size_bytes": 147959522,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8n-obb-dotav1-torch",
+            "base_filename": "yolov8n-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8n Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 6548034,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8s-obb-dotav1-torch",
+            "base_filename": "yolov8s-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8s Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 23245186,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8m-obb-dotav1-torch",
+            "base_filename": "yolov8m-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8m Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 53304682,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8l-obb-dotav1-torch",
+            "base_filename": "yolov8l-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8l Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 89504274,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8x-obb-dotav1-torch",
+            "base_filename": "yolov8x-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8x Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 139533138,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8n-oiv7-torch",
+            "base_filename": "yolov8n-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8n model trained on Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 6534387,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8s-oiv7-torch",
+            "base_filename": "yolov8s-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8s model trained on Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 22573363,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8m-oiv7-torch",
+            "base_filename": "yolov8m-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8m model trained Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 52117635,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8l-oiv7-torch",
+            "base_filename": "yolov8l-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8l model trained Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 87769683,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8x-oiv7-torch",
+            "base_filename": "yolov8x-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8x model trained Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 136867539,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        }
+    ]
+}
