@@ -7,6 +7,7 @@ Ultralytics models.
 """
 import eta.core.web as etaw
 
+from fiftyone.operators import types
 import fiftyone.utils.ultralytics as fouu
 
 
@@ -23,7 +24,7 @@ def download_model(model_name, model_path):
     etaw.download_file(url, path=model_path)
 
 
-def load_model(model_name, model_path, **kwargs):
+def load_model(model_name, model_path, classes=None):
     """Loads the model.
 
     Args:
@@ -32,37 +33,55 @@ def load_model(model_name, model_path, **kwargs):
         model_path: the absolute filename or directory to which the model was
             donwloaded, as declared by the ``base_filename`` field of the
             manifest
-        **kwargs: optional keyword arguments that configure how the model
-            is loaded
+        classes (None): an optional list of classes to use for zero-shot
+            prediction
 
     Returns:
         a :class:`fiftyone.core.models.Model`
     """
     model_type = MODEL_TYPES[model_name]
 
+    d = dict(model_path=model_path, classes=classes)
+
     if model_type == "detection":
-        config = fouu.FiftyOneYOLODetectionModelConfig(
-            dict(model_path=model_path)
-        )
+        config = fouu.FiftyOneYOLODetectionModelConfig(d)
         return fouu.FiftyOneYOLODetectionModel(config)
 
     if model_type == "segmentation":
-        config = fouu.FiftyOneYOLOSegmentationModelConfig(
-            dict(model_path=model_path)
-        )
+        config = fouu.FiftyOneYOLOSegmentationModelConfig(d)
         return fouu.FiftyOneYOLOSegmentationModel(config)
 
     if model_type == "rtdetr":
-        config = fouu.FiftyOneRTDETRModelConfig(
-            dict(model_path=model_path)
-        )
+        config = fouu.FiftyOneRTDETRModelConfig(d)
         return fouu.FiftyOneRTDETRModel(config)
 
     if model_type == "obb":
-        config = fouu.FiftyOneYOLOOBBModelConfig(
-            dict(model_path=model_path)
-        )
+        config = fouu.FiftyOneYOLOOBBModelConfig(d)
         return fouu.FiftyOneYOLOOBBModel(config)
+
+
+def get_parameters(model_name, ctx, inputs):
+    """Defines any necessary properties to collect the model's custom
+    parameters from a user during prompting.
+
+    Args:
+        model_name: the name of the model, as declared by the ``base_name`` and
+            optional ``version`` fields of the manifest
+        ctx: an :class:`fiftyone.operators.ExecutionContext`
+        inputs: a :class:`fiftyone.operators.types.Property`
+    """
+    if "world" in model_name:
+        inputs.list(
+            "classes",
+            types.String(),
+            required=False,
+            default=None,
+            label="Zero shot classes",
+            description=(
+                "An optional list of custom classes for zero-shot prediction"
+            ),
+            view=types.AutocompleteView(),
+        )
 
 
 MODEL_URLS = {
