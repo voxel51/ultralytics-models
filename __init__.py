@@ -60,7 +60,7 @@ def load_model(model_name, model_path, classes=None):
         return fouu.FiftyOneYOLOOBBModel(config)
 
 
-def get_parameters(model_name, ctx, inputs):
+def resolve_input(model_name, ctx):
     """Defines any necessary properties to collect the model's custom
     parameters from a user during prompting.
 
@@ -68,20 +68,28 @@ def get_parameters(model_name, ctx, inputs):
         model_name: the name of the model, as declared by the ``base_name`` and
             optional ``version`` fields of the manifest
         ctx: an :class:`fiftyone.operators.ExecutionContext`
-        inputs: a :class:`fiftyone.operators.types.Property`
+
+    Returns:
+        a :class:`fiftyone.operators.types.Property`, or None
     """
-    if "world" in model_name:
-        inputs.list(
-            "classes",
-            types.String(),
-            required=False,
-            default=None,
-            label="Zero shot classes",
-            description=(
-                "An optional list of custom classes for zero-shot prediction"
-            ),
-            view=types.AutocompleteView(),
-        )
+    if "world" not in model_name:
+        return
+
+    inputs = types.Object()
+
+    inputs.list(
+        "classes",
+        types.String(),
+        required=False,
+        default=None,
+        label="Zero shot classes",
+        description=(
+            "An optional list of custom classes for zero-shot prediction"
+        ),
+        view=types.AutocompleteView(),
+    )
+
+    return types.Property(inputs)
 
 
 MODEL_URLS = {
