@@ -123,6 +123,126 @@
             }
         },
         {
+            "base_name": "voxel51/yolov8n-oiv7-torch",
+            "base_filename": "yolov8n-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8n model trained on Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 6534387,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8s-oiv7-torch",
+            "base_filename": "yolov8s-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8s model trained on Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 22573363,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8m-oiv7-torch",
+            "base_filename": "yolov8m-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8m model trained Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 52117635,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8l-oiv7-torch",
+            "base_filename": "yolov8l-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8l model trained Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 87769683,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8x-oiv7-torch",
+            "base_filename": "yolov8x-oiv7.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
+            "description": "Ultralytics YOLOv8x model trained Open Images v7",
+            "tags": ["detection", "oiv7", "torch", "yolo"],
+            "size_bytes": 136867539,
+            "date_added": "2024-05-20 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
             "base_name": "voxel51/yolov8n-seg-coco-torch",
             "base_filename": "yolov8n-seg-coco.pt",
             "author": "Ultralytics",
@@ -233,6 +353,294 @@
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
                     "ultralytics"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8s-world-torch",
+            "base_filename": "yolov8s-world.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo-world/",
+            "description": "YOLOv8s-World model",
+            "tags": ["detection", "torch", "yolo", "zero-shot"],
+            "size_bytes": 27166882,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8m-world-torch",
+            "base_filename": "yolov8m-world.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo-world/",
+            "description": "YOLOv8m-World model",
+            "tags": ["detection", "torch", "yolo", "zero-shot"],
+            "size_bytes": 58607810,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8l-world-torch",
+            "base_filename": "yolov8l-world.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo-world/",
+            "description": "YOLOv8l-World model",
+            "tags": ["detection", "torch", "yolo", "zero-shot"],
+            "size_bytes": 95664610,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8x-world-torch",
+            "base_filename": "yolov8x-world.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo-world/",
+            "description": "YOLOv8x-World model",
+            "tags": ["detection", "torch", "yolo", "zero-shot"],
+            "size_bytes": 147959522,
+            "date_added": "2024-03-11 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8n-obb-dotav1-torch",
+            "base_filename": "yolov8n-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8n Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 6548034,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8s-obb-dotav1-torch",
+            "base_filename": "yolov8s-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8s Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 23245186,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8m-obb-dotav1-torch",
+            "base_filename": "yolov8m-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8m Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 53304682,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8l-obb-dotav1-torch",
+            "base_filename": "yolov8l-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8l Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 89504274,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolov8x-obb-dotav1-torch",
+            "base_filename": "yolov8x-obb.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/tasks/obb/",
+            "description": "YOLOv8x Oriented Bounding Box model",
+            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
+            "size_bytes": 139533138,
+            "date_added": "2024-04-05 19:22:51",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.1.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yoloev8s-seg-torch",
+            "base_filename": "yoloe-v8s-seg.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yoloe",
+            "description": "Compact model producing outlines for objects described in words on edge devices",
+            "tags": ["instances", "torch", "yolo", "zero-shot"],
+            "size_bytes": 31135890,
+            "date_added": "2025-04-10 12:24:41",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.3.99"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yoloev8m-seg-torch",
+            "base_filename": "yoloe-v8m-seg.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yoloe",
+            "description": "Compact model producing outlines for objects described in words on edge devices",
+            "tags": ["instances", "torch", "yolo", "zero-shot"],
+            "size_bytes": 65800690,
+            "date_added": "2025-04-10 12:24:41",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.3.99"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yoloev8l-seg-torch",
+            "base_filename": "yoloe-v8l-seg.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yoloe",
+            "description": "Compact model producing outlines for objects described in words on edge devices",
+            "tags": ["instances", "torch", "yolo", "zero-shot"],
+            "size_bytes": 107405586,
+            "date_added": "2025-04-10 12:24:41",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.3.99"
                 ],
                 "cpu": {
                     "support": true
@@ -465,7 +873,7 @@
             "license": "https://www.ultralytics.com/license",
             "source": "https://docs.ultralytics.com/models/rtdetr/",
             "description": "RT-DETR-l model trained on COCO",
-            "tags": ["detection", "coco", "torch", "transformer"],
+            "tags": ["detection", "coco", "torch", "transformer", "rtdetr"],
             "size_bytes": 66511432,
             "date_added": "2024-07-01 19:22:51",
             "requirements": {
@@ -489,7 +897,7 @@
             "license": "https://www.ultralytics.com/license",
             "source": "https://docs.ultralytics.com/models/rtdetr/",
             "description": "RT-DETR-x model trained on COCO",
-            "tags": ["detection", "coco", "torch", "transformer"],
+            "tags": ["detection", "coco", "torch", "transformer", "rtdetr"],
             "size_bytes": 135755662,
             "date_added": "2024-07-01 19:22:51",
             "requirements": {
@@ -507,20 +915,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8s-world-torch",
-            "base_filename": "yolov8s-world.pt",
+            "base_name": "voxel51/yolo11n-coco-torch",
+            "base_filename": "yolo11n-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/models/yolo-world/",
-            "description": "YOLOv8s-World model",
-            "tags": ["detection", "torch", "yolo", "zero-shot"],
-            "size_bytes": 27166882,
-            "date_added": "2024-03-11 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolov11/",
+            "description": "Object detector designed specifically for phones and other edge computing devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 5613764,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -531,20 +939,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8m-world-torch",
-            "base_filename": "yolov8m-world.pt",
+            "base_name": "voxel51/yolo11s-coco-torch",
+            "base_filename": "yolo11s-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/models/yolo-world/",
-            "description": "YOLOv8m-World model",
-            "tags": ["detection", "torch", "yolo", "zero-shot"],
-            "size_bytes": 58607810,
-            "date_added": "2024-03-11 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolov11/",
+            "description": "Object detector designed specifically for phones and other edge computing devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 19313732,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -555,20 +963,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8l-world-torch",
-            "base_filename": "yolov8l-world.pt",
+            "base_name": "voxel51/yolo11m-coco-torch",
+            "base_filename": "yolo11m-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/models/yolo-world/",
-            "description": "YOLOv8l-World model",
-            "tags": ["detection", "torch", "yolo", "zero-shot"],
-            "size_bytes": 95664610,
-            "date_added": "2024-03-11 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolov11/",
+            "description": "Object detector designed specifically for phones and other edge computing devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 40684120,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -579,20 +987,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8x-world-torch",
-            "base_filename": "yolov8x-world.pt",
+            "base_name": "voxel51/yolo11l-coco-torch",
+            "base_filename": "yolo11l-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/models/yolo-world/",
-            "description": "YOLOv8x-World model",
-            "tags": ["detection", "torch", "yolo", "zero-shot"],
-            "size_bytes": 147959522,
-            "date_added": "2024-03-11 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolov11/",
+            "description": "Object detector designed specifically for phones and other edge computing devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 51387343,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -603,20 +1011,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8n-obb-dotav1-torch",
-            "base_filename": "yolov8n-obb.pt",
+            "base_name": "voxel51/yolo11x-coco-torch",
+            "base_filename": "yolo11x-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/tasks/obb/",
-            "description": "YOLOv8n Oriented Bounding Box model",
-            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
-            "size_bytes": 6548034,
-            "date_added": "2024-04-05 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolov11/",
+            "description": "Object detector designed specifically for phones and other edge computing devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 114636239,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -627,20 +1035,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8s-obb-dotav1-torch",
-            "base_filename": "yolov8s-obb.pt",
+            "base_name": "voxel51/yolo11n-seg-coco-torch",
+            "base_filename": "yolo11n-seg-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/tasks/obb/",
-            "description": "YOLOv8s Oriented Bounding Box model",
-            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
-            "size_bytes": 23245186,
-            "date_added": "2024-04-05 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolo11/#__tabbed_1_2",
+            "description": "Edge model producing object outlines directly on phones and edge devices",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 6182636,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -651,20 +1059,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8m-obb-dotav1-torch",
-            "base_filename": "yolov8m-obb.pt",
+            "base_name": "voxel51/yolo11s-seg-coco-torch",
+            "base_filename": "yolo11s-seg-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/tasks/obb/",
-            "description": "YOLOv8m Oriented Bounding Box model",
-            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
-            "size_bytes": 53304682,
-            "date_added": "2024-04-05 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolo11/#__tabbed_1_2",
+            "description": "Edge model producing object outlines directly on phones and edge devices",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 20669228,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -675,20 +1083,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8l-obb-dotav1-torch",
-            "base_filename": "yolov8l-obb.pt",
+            "base_name": "voxel51/yolo11m-seg-coco-torch",
+            "base_filename": "yolo11m-seg-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/tasks/obb/",
-            "description": "YOLOv8l Oriented Bounding Box model",
-            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
-            "size_bytes": 89504274,
-            "date_added": "2024-04-05 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolo11/#__tabbed_1_2",
+            "description": "Edge model producing object outlines directly on phones and edge devices",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 45400152,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -699,20 +1107,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8x-obb-dotav1-torch",
-            "base_filename": "yolov8x-obb.pt",
+            "base_name": "voxel51/yolo11l-seg-coco-torch",
+            "base_filename": "yolo11l-seg-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/tasks/obb/",
-            "description": "YOLOv8x Oriented Bounding Box model",
-            "tags": ["detection", "torch", "yolo", "polylines", "obb"],
-            "size_bytes": 139533138,
-            "date_added": "2024-04-05 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolo11/#__tabbed_1_2",
+            "description": "Edge model producing object outlines directly on phones and edge devices",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 56096965,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics>=8.1.0"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -723,20 +1131,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8n-oiv7-torch",
-            "base_filename": "yolov8n-oiv7.pt",
+            "base_name": "voxel51/yolo11x-seg-coco-torch",
+            "base_filename": "yolo11x-seg-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
-            "description": "Ultralytics YOLOv8n model trained on Open Images v7",
-            "tags": ["detection", "oiv7", "torch", "yolo"],
-            "size_bytes": 6534387,
-            "date_added": "2024-05-20 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolo11/#__tabbed_1_2",
+            "description": "Edge model producing object outlines directly on phones and edge devices",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 125090821,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics"
+                    "ultralytics>=8.3.0"
                 ],
                 "cpu": {
                     "support": true
@@ -747,20 +1155,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8s-oiv7-torch",
-            "base_filename": "yolov8s-oiv7.pt",
+            "base_name": "voxel51/yoloe11s-seg-torch",
+            "base_filename": "yoloe-11s-seg.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
-            "description": "Ultralytics YOLOv8s model trained on Open Images v7",
-            "tags": ["detection", "oiv7", "torch", "yolo"],
-            "size_bytes": 22573363,
-            "date_added": "2024-05-20 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yoloe",
+            "description": "Segments specified classes, generating object outlines and boxes for real-time applications",
+            "tags": ["instances", "torch", "yolo", "zero-shot"],
+            "size_bytes": 27803986,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics"
+                    "ultralytics>=8.3.99"
                 ],
                 "cpu": {
                     "support": true
@@ -771,20 +1179,20 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8m-oiv7-torch",
-            "base_filename": "yolov8m-oiv7.pt",
+            "base_name": "voxel51/yoloe11m-seg-torch",
+            "base_filename": "yoloe-11m-seg.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
-            "description": "Ultralytics YOLOv8m model trained Open Images v7",
-            "tags": ["detection", "oiv7", "torch", "yolo"],
-            "size_bytes": 52117635,
-            "date_added": "2024-05-20 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yoloe",
+            "description": "Segments specified classes, generating object outlines and boxes for real-time applications",
+            "tags": ["instances", "torch", "yolo", "zero-shot"],
+            "size_bytes": 60276714,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics"
+                    "ultralytics>=8.3.99"
                 ],
                 "cpu": {
                     "support": true
@@ -795,20 +1203,45 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8l-oiv7-torch",
-            "base_filename": "yolov8l-oiv7.pt",
+            "base_name": "voxel51/yoloe11l-seg-torch",
+            "base_filename": "yoloe-11l-seg.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
-            "description": "Ultralytics YOLOv8l model trained Open Images v7",
-            "tags": ["detection", "oiv7", "torch", "yolo"],
-            "size_bytes": 87769683,
-            "date_added": "2024-05-20 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yoloe",
+            "description": "Segments specified classes, generating object outlines and boxes for real-time applications",
+            "tags": ["instances", "torch", "yolo", "zero-shot"],
+            "size_bytes": 70982416,
+            "date_added": "2024-10-05 19:22:51",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics"
+                    "ultralytics>=8.3.99"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+
+        {
+            "base_name": "voxel51/yolo26n-coco-torch",
+            "base_filename": "yolo26n-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free detector for edge devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 5544453,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
                 ],
                 "cpu": {
                     "support": true
@@ -819,20 +1252,452 @@
             }
         },
         {
-            "base_name": "voxel51/yolov8x-oiv7-torch",
-            "base_filename": "yolov8x-oiv7.pt",
+            "base_name": "voxel51/yolo26s-coco-torch",
+            "base_filename": "yolo26s-coco-torch-coco.pt",
             "author": "Ultralytics",
             "license": "https://www.ultralytics.com/license",
-            "source": "https://docs.ultralytics.com/datasets/detect/open-images-v7",
-            "description": "Ultralytics YOLOv8x model trained Open Images v7",
-            "tags": ["detection", "oiv7", "torch", "yolo"],
-            "size_bytes": 136867539,
-            "date_added": "2024-05-20 19:22:51",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free detector for edge devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 20422725,
+            "date_added": "2026-01-15 12:00:00",
             "requirements": {
                 "packages": [
                     "torch>=1.7.0",
                     "torchvision>=0.8.1",
-                    "ultralytics"
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26m-coco-torch",
+            "base_filename": "yolo26m-coco-torch-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free detector for edge devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 44255705,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26l-coco-torch",
+            "base_filename": "yolo26l-coco-torch-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free detector for edge devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 53211173,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26x-coco-torch",
+            "base_filename": "yolo26x-coco-torch-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free detector for edge devices",
+            "tags": ["detection", "coco", "torch", "yolo"],
+            "size_bytes": 118667365,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26n-seg-coco-torch",
+            "base_filename": "yolo26n-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free detector for edge devices",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 6719965,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26s-seg-coco-torch",
+            "base_filename": "yolo26s-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free detector for edge devices",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 23467933,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26m-seg-coco-torch",
+            "base_filename": "yolo26m-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Fast NMS-free instance segmentation",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 54750385,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26l-seg-coco-torch",
+            "base_filename": "yolo26l-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Fast NMS-free instance segmentation",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 63700037,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26x-seg-coco-torch",
+            "base_filename": "yolo26x-seg-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Fast NMS-free instance segmentation",
+            "tags": ["instances", "coco", "torch", "yolo"],
+            "size_bytes": 142129861,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26n-cls-imagenet-torch",
+            "base_filename": "yolo26n-cls-imagenet.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast image classifier for edge devices",
+            "tags": ["classification", "imagenet", "torch", "yolo"],
+            "size_bytes": 5786434,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26s-cls-imagenet-torch",
+            "base_filename": "yolo26s-cls-imagenet.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast image classifier for edge devices",
+            "tags": ["classification", "imagenet", "torch", "yolo"],
+            "size_bytes": 13622082,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26m-cls-imagenet-torch",
+            "base_filename": "yolo26m-cls-imagenet.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast image classifier for edge devices",
+            "tags": ["classification", "imagenet", "torch", "yolo"],
+            "size_bytes": 23477398,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26l-cls-imagenet-torch",
+            "base_filename": "yolo26l-cls-imagenet.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast image classifier for edge devices",
+            "tags": ["classification", "imagenet", "torch", "yolo"],
+            "size_bytes": 28535928,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26x-cls-imagenet-torch",
+            "base_filename": "yolo26x-cls-imagenet.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast image classifier for edge devices",
+            "tags": ["classification", "imagenet", "torch", "yolo"],
+            "size_bytes": 59610168,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26n-pose-coco-torch",
+            "base_filename": "yolo26n-pose-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free pose estimation for edge devices",
+            "tags": ["keypoints", "coco", "torch", "yolo"],
+            "size_bytes": 7878574,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26s-pose-coco-torch",
+            "base_filename": "yolo26s-pose-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free pose estimation for edge devices",
+            "tags": ["keypoints", "coco", "torch", "yolo"],
+            "size_bytes": 24151790,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26m-pose-coco-torch",
+            "base_filename": "yolo26m-pose-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free pose estimation for edge devices",
+            "tags": ["keypoints", "coco", "torch", "yolo"],
+            "size_bytes": 49036866,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26l-pose-coco-torch",
+            "base_filename": "yolo26l-pose-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free pose estimation for edge devices",
+            "tags": ["keypoints", "coco", "torch", "yolo"],
+            "size_bytes": 57995961,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
+                ],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "voxel51/yolo26x-pose-coco-torch",
+            "base_filename": "yolo26x-pose-coco.pt",
+            "author": "Ultralytics",
+            "license": "https://www.ultralytics.com/license",
+            "source": "https://docs.ultralytics.com/models/yolo26/",
+            "description": "Ultra-fast NMS-free pose estimation for edge devices",
+            "tags": ["keypoints", "coco", "torch", "yolo"],
+            "size_bytes": 126242553,
+            "date_added": "2026-01-15 12:00:00",
+            "requirements": {
+                "packages": [
+                    "torch>=1.7.0",
+                    "torchvision>=0.8.1",
+                    "ultralytics>=8.4.0"
                 ],
                 "cpu": {
                     "support": true
